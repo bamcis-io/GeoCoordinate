@@ -44,8 +44,8 @@ namespace BAMCIS.GIS
         /// <param name="longitude">The coordinate longitude</param>
         public GeoCoordinate(Latitude latitude, Longitude longitude)
         {
-            this.Latitude = Latitude ?? throw new ArgumentNullException("latitude");
-            this.Longitude = Longitude ?? throw new ArgumentNullException("longitude");
+            this.Latitude = latitude ?? throw new ArgumentNullException("latitude");
+            this.Longitude = longitude ?? throw new ArgumentNullException("longitude");
         }
 
         /// <summary>

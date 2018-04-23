@@ -12,11 +12,12 @@
     <PackageProjectUrl>https://github.com/bamcis-io/GeoCoordinate</PackageProjectUrl>
     <RepositoryUrl>https://github.com/bamcis-io/GeoCoordinate</RepositoryUrl>
     <PackageTags>Geography Latitude Longitude Haversine Rhumb Coordinate</PackageTags>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed bug in GeoCoordinate constructor.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageId>GeoCoordinateSystem</PackageId>
     <Product>GeoCoordinate</Product>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

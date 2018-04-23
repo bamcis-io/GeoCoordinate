@@ -21,6 +21,21 @@ namespace BAMCIS.GIS.Tests
         }
 
         [Fact]
+        public void GoodGeoCoordinateWithLatLong()
+        {
+            // ARRANGE
+            double Lat = 85.00001;
+            double Long = -110.12345;
+
+            // ACT
+            GeoCoordinate Coord = new GeoCoordinate(new Latitude(Lat), new Longitude(Long));
+
+            // ASSERT
+            Assert.Equal(Lat, Coord.Latitude.DecimalDegrees);
+            Assert.Equal(Long, Coord.Longitude.DecimalDegrees);
+        }
+
+        [Fact]
         public void BadLatGeoCoordinate()
         {
             // ARRANGE
