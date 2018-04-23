@@ -8,6 +8,11 @@
     <Description>An implementation of a latitude/longitude point coordinate with methods for calculating distance and bearing.</Description>
     <Copyright>BAMCIS</Copyright>
     <RepositoryType>Git</RepositoryType>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/bamcis-io/GeoCoordinate/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/bamcis-io/GeoCoordinate</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bamcis-io/GeoCoordinate</RepositoryUrl>
+    <PackageTags>Geography Latitude Longitude Haversine Rhumb Coordinate</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
