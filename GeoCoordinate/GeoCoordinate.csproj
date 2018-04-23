@@ -6,7 +6,7 @@
     <Authors>Michael Haken</Authors>
     <Company>bamcis.io</Company>
     <Description>An implementation of a latitude/longitude point coordinate with methods for calculating distance and bearing.</Description>
-    <Copyright>BAMCIS</Copyright>
+    <Copyright>bamcis</Copyright>
     <RepositoryType>Git</RepositoryType>
     <PackageLicenseUrl>https://raw.githubusercontent.com/bamcis-io/GeoCoordinate/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/bamcis-io/GeoCoordinate</PackageProjectUrl>
@@ -15,7 +15,7 @@
     <PackageReleaseNotes>Fixed bug in GeoCoordinate constructor.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageId>GeoCoordinateSystem</PackageId>
+    <PackageId>BAMCIS.GeoCoordinate</PackageId>
     <Product>GeoCoordinate</Product>
     <Version>1.0.1</Version>
   </PropertyGroup>
