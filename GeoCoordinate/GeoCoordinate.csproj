@@ -13,6 +13,8 @@
     <RepositoryUrl>https://github.com/bamcis-io/GeoCoordinate</RepositoryUrl>
     <PackageTags>Geography Latitude Longitude Haversine Rhumb Coordinate</PackageTags>
     <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>
