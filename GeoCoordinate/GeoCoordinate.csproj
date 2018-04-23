@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>BAMCIS.GIS</RootNamespace>
+    <Authors>Michael Haken</Authors>
+    <Company>bamcis.io</Company>
+    <Description>An implementation of a latitude/longitude point coordinate with methods for calculating distance and bearing.</Description>
+    <Copyright>BAMCIS</Copyright>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
